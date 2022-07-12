@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    /* width: 100vw; */
+    margin: 0 auto;
+    font-family: Roboto;
+}
+header{
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #e7e7e7;
+    padding: 15px 150px;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+
+}
+.header-items{
+    display: flex;
+    align-items: center;
+    min-width: 55%;
+    justify-content: space-between;
+    /* margin-left: 80px; */
+    /* margin-right: 100px; */
+    color: #959BA4;
+    
+}
+.header-items p{
+    /* margin-left: 20px; */
+}
+.bank{
+    color: black;
+}
+button{
+    padding: 7px;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+}
+.wrapper{
+    /* padding: 56px 320px; */
+    /* background-color: rgb(216, 206, 194); */
+    margin-left: 27%;
+    margin-right: 25%;
+    margin-top: 50px;
+    height: 100vh;
+}
+h1{
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+.choose-currency{
+    display: flex;
+}
+.currency-button{
+    border: 1px solid #bebebe;
+    border-radius: 3px;
+    color: #bebebe;
+    padding: 5px 17px;
+}
+.button-hidden{
+    display: none;
+}
+
+.button-hidden:checked ~ .currency-button{
+    /* display: none; */
+    background: #833AE0;
+}
+.amount{
+    border: 1px solid #bebebe;
+    border-radius: 3px;
+    max-width: 262px;
+    height: 102px;
+    margin-top: 20px;
+    /* padding: 15px; */
+}
+.sum{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    margin: 15px;
+    color: black;
+    outline: none;
+    border: none;
+    max-width: 220px;
+}
+.exchange-rate{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    margin: 15px;
+    margin-top: 0px;
+}
+.count-blocks{
+    display: flex;
+    justify-content: space-between;
+    color: #bebebe;
+}
+
